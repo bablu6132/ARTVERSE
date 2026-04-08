@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin - ArtVerse</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="admin-page">
+  <header class="navbar">
+    <div class="brand">
+      <div class="brand-mark">AV</div>
+      <div class="brand-text">
+        <span class="brand-title">ArtVerse</span>
+        <span class="brand-tagline">Curated Art Market</span>
+      </div>
+    </div>
+    <nav class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="cart.html">Cart</a>
+      <a href="add_product.html">Add Product</a>
+      <a href="admin.html">Admin</a>
+      <a href="#" id="logoutBtn">Logout</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="page-header">
+      <div>
+        <span class="eyebrow">Operations</span>
+        <h2>Admin Data</h2>
+        <p>Review platform users, inventory, carts, orders, and payments.</p>
+      </div>
+    </div>
+
+    <h3>Users</h3>
+    <div class="table-wrap"><table id="usersTable"></table></div>
+
+    <h3>Products</h3>
+    <div class="table-wrap"><table id="productsTable"></table></div>
+
+    <h3>Carts</h3>
+    <div class="table-wrap"><table id="cartsTable"></table></div>
+
+    <h3>Orders</h3>
+    <div class="table-wrap"><table id="ordersTable"></table></div>
+
+    <h3>Payments</h3>
+    <div class="table-wrap"><table id="paymentsTable"></table></div>
+
+    <div id="adminMessage" class="message"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

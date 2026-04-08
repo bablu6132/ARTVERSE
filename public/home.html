@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - ArtVerse</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="brand">
+      <div class="brand-mark">AV</div>
+      <div class="brand-text">
+        <span class="brand-title">ArtVerse</span>
+        <span class="brand-tagline">Curated Art Market</span>
+      </div>
+    </div>
+    <nav class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="cart.html">Cart</a>
+      <a href="add_product.html">Add Product</a>
+      <a href="admin.html">Admin</a>
+      <a href="#" id="logoutBtn">Logout</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="page-header">
+      <div>
+        <span class="eyebrow">Featured drops</span>
+        <h2>Discover new artworks</h2>
+        <p>Shop unique pieces curated for modern spaces.</p>
+      </div>
+    </div>
+    <div id="productsContainer" class="grid"></div>
+    <div id="homeMessage" class="message"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

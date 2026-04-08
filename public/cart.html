@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cart - ArtVerse</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="brand">
+      <div class="brand-mark">AV</div>
+      <div class="brand-text">
+        <span class="brand-title">ArtVerse</span>
+        <span class="brand-tagline">Curated Art Market</span>
+      </div>
+    </div>
+    <nav class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="cart.html">Cart</a>
+      <a href="#" id="logoutBtn">Logout</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="page-header">
+      <div>
+        <span class="eyebrow">Your picks</span>
+        <h2>Your Cart</h2>
+        <p>Review your items and place your order.</p>
+      </div>
+    </div>
+    <div id="cartContainer"></div>
+    <button id="placeOrderBtn">Place Order</button>
+    <div id="cartMessage" class="message"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
